@@ -1,3 +1,5 @@
+# Smart-Property-Analyzer
+
 # CAPSTONE_PROJECT:- Real-Estate
 
 In this comprehensive capstone project, the primary focus was on leveraging Data Science techniques to provide insights, predictions, and recommendations in the Real Estate domain. The project unfolds through various stages, covering data gathering, cleaning, exploratory analysis, modeling, recommendations systems, and the deployment of a user- friendly application.
@@ -33,15 +35,19 @@ In the Model Selection and Productionalization phase, an exhaustive comparison o
 The Regression models considered in the comparison included:
 
 1. Linar Regression:
+
    - A foundational regression model that assumes a linear relationship between the input features and the target variable.
 
 2. Support Vector Regression(SVR):
+
    - A regrssion technique that leverages support vector machines to find a hyperplane that best fits the data, allowing for non-linear relationships.
 
 3. Random Forest Regressor:
+
    - An enseble learning method that builds a multitude of decision tress during training and outputs the average prediction of the individual tress.
 
 4. Multi-layer Perceptron(MLP):
+
    - A type of artificial neural network that consists of multiple layers of nodes and is capable of learning complex patterns.
 
 5. LASSO Regression:
@@ -49,15 +55,15 @@ The Regression models considered in the comparison included:
 
 6. Ridge Regression:
    - A linear regression technique with L2 regularization, which helps prevent multicollinearity and stablizes the model.
-     
 7. Gradient Boosting Regressor:
    - An ensemble learning method that bulids trees sequentially, with each tree correcting the errors of the previous ones.
-       
 8. Decision Tree Regressor:
+
    - A non-linear regression model that splits the dataset into subsets based on the most significant attribute at each node.
 
 9. K-Nearest Neighbors Regressor:
-    - A regression model that predicts the target variable by averaging the values of its k-nearest neighbors.
+
+   - A regression model that predicts the target variable by averaging the values of its k-nearest neighbors.
 
 10. ElasticNet Regression:
     - A linear regression technique that combines L1 and L2 regularization terms.
@@ -74,8 +80,4 @@ An analytics module was developed to visually represent key insights about the r
 
 In the process of buliding the Recommender system, three distinct recommendation models were developed, each focusing on different asoects of the real estate dataset: top facilities, price details, and location advantages. The goal was to provide users with personalized recommendations tailored to their preferences and priorites. Additionally, a user-friendly recommendation interface was crafted using Streamlit, enhancing the accessibility of the recommendation systems.
 
-
 This capstone project not only demonstrates proficiency in data science techniques such as feature engineering, exploratory analysis, and model building but also showcases the deployment of a real-world appliction, making valuable insights and recommendations accessible to end-users.
-
-
-
